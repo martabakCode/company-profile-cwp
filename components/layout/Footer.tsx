@@ -60,16 +60,16 @@ export default function Footer() {
                             <div className="flex items-start">
                                 <MapPin className="h-5 w-5 text-gold mt-0.5 mr-3 shrink-0" />
                                 <span className="text-gray-400 text-sm">
-                                    Jl. Contoh Alamat No. 123,<br />Jakarta, Indonesia
+                                    Jl. Parkit 1 Blok Y1 no 15 Bintaro Sektor 2, Ciputat Timur,<br />Tangerang Selatan, Indonesia
                                 </span>
                             </div>
                             <div className="flex items-center">
                                 <Phone className="h-5 w-5 text-gold mr-3 shrink-0" />
-                                <span className="text-gray-400 text-sm">+62 812-3456-7890</span>
+                                <span className="text-gray-400 text-sm">+62 821-3015-2573</span>
                             </div>
                             <div className="flex items-center">
                                 <Mail className="h-5 w-5 text-gold mr-3 shrink-0" />
-                                <span className="text-gray-400 text-sm">info@cahayawukuf.com</span>
+                                <span className="text-gray-400 text-sm">cahayawp75@gmail.com</span>
                             </div>
                         </div>
                     </div>
@@ -79,16 +79,6 @@ export default function Footer() {
                     <p className="text-gray-500 text-sm text-center md:text-left">
                         &copy; {new Date().getFullYear()}  Cahaya Wukuf Permana. All rights reserved.
                     </p>
-                    <div className="flex space-x-6 mt-4 md:mt-0">
-                        <Link href="#" className="text-gray-400 hover:text-gold">
-                            <span className="sr-only">Facebook</span>
-                            <Facebook className="h-5 w-5" />
-                        </Link>
-                        <Link href="#" className="text-gray-400 hover:text-gold">
-                            <span className="sr-only">Instagram</span>
-                            <Instagram className="h-5 w-5" />
-                        </Link>
-                    </div>
                 </div>
             </div>
         </footer>

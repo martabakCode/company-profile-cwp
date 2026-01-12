@@ -10,21 +10,17 @@ export default function OrganizationSchema() {
         "description": "Jasa Penyelenggara Event Khusus (Special Event Organizer) profesional di Indonesia. Melayani pameran, konferensi, dan event korporat.",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jl. Contoh Alamat No. 123",
-            "addressLocality": "Jakarta",
-            "addressRegion": "DKI Jakarta",
-            "postalCode": "12000",
+            "streetAddress": "Jl. Parkit 1 Blok Y1 no 15 Bintaro Sektor 2 Ciputat Timur",
+            "addressLocality": "Tangerang Selatan",
+            "addressRegion": "Banten",
+            "postalCode": "15412",
             "addressCountry": "ID"
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+62-812-3456-7890",
+            "telephone": "+62-821-3015-2573",
             "contactType": "customer service"
-        },
-        "sameAs": [
-            "https://facebook.com/cahayawukuf",
-            "https://instagram.com/cahayawukuf"
-        ]
+        }
     };
 
     return (

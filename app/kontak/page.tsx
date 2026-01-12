@@ -27,8 +27,8 @@ export default function ContactPage() {
                                     <div>
                                         <h4 className="font-bold text-dark mb-1">Alamat Kantor</h4>
                                         <p className="text-gray-600">
-                                            Jl. Contoh Alamat No. 123,<br />
-                                            Jakarta, Indonesia
+                                            Jl. Parkit 1 Blok Y1 no 15 Bintaro Sektor 2, Ciputat Timur,<br />
+                                            Tangerang Selatan, Indonesia
                                         </p>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-dark mb-1">Telepon / WhatsApp</h4>
-                                        <p className="text-gray-600">+62 812-3456-7890</p>
+                                        <p className="text-gray-600">+62 821-3015-2573</p>
                                         <p className="text-gray-600 text-sm">(Senin - Jumat, 09.00 - 17.00 WIB)</p>
                                     </div>
                                 </div>
@@ -48,32 +48,21 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-dark mb-1">Email</h4>
-                                        <p className="text-gray-600">info@cahayawukuf.com</p>
+                                        <p className="text-gray-600">cahayawp75@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
-                            <h3 className="text-2xl font-bold text-dark mb-6">Social Media</h3>
-                            <div className="flex space-x-4">
-                                <a href="#" className="flex items-center justify-center h-12 w-12 rounded-full bg-white text-dark hover:bg-gold hover:text-white transition-all shadow-sm border border-gray-200">
-                                    <Instagram className="h-6 w-6" />
-                                </a>
-                                <a href="#" className="flex items-center justify-center h-12 w-12 rounded-full bg-white text-dark hover:bg-gold hover:text-white transition-all shadow-sm border border-gray-200">
-                                    <Facebook className="h-6 w-6" />
-                                </a>
-                            </div>
-                        </div>
                     </div>
 
-                    {/* Map Placeholder or Form */}
                     <div className="h-full min-h-[400px] bg-gray-200 rounded-2xl overflow-hidden relative">
-                        <div className="absolute inset-0 flex items-center justify-center flex-col text-gray-500">
-                            <MapPin className="h-12 w-12 mb-4 opacity-50" />
-                            <span className="font-medium">Google Maps Embed Placeholder</span>
-                            <span className="text-sm mt-2">Replace with actual iframe</span>
-                        </div>
+                        <iframe
+                            title="Lokasi Jl. Parkit 1 Blok Y1 No 15 Bintaro"
+                            src="https://www.google.com/maps?q=Jl.%20Parkit%201%20Blok%20Y1%20No%2015%20Bintaro%20Sektor%202%20Ciputat%20Timur%20Tangerang%20Selatan&output=embed"
+                            className="w-full h-full border-0"
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        />
                     </div>
                 </div>
             </Section>

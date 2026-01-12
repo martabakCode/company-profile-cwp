@@ -103,9 +103,23 @@ export default function Home() {
               Tentang Kami
             </Link>
           </AnimatedSection>
-          <AnimatedSection animationType="scale-in" delay={0.2} className="relative h-96 bg-gray-200 rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-dark/5 flex items-center justify-center text-gray-400">
-              <span className="text-lg">Event Documentation</span>
+          <AnimatedSection
+            animationType="scale-in"
+            delay={0.2}
+            className="relative h-96 rounded-2xl overflow-hidden"
+          >
+            {/* Unsplash Event Image */}
+            <img
+              src="https://images.unsplash.com/featured/?event,conference"
+              alt="Event Documentation"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-dark/40 flex items-center justify-center">
+              <span className="text-lg text-white font-semibold tracking-wide">
+                Event Documentation
+              </span>
             </div>
           </AnimatedSection>
         </div>
