@@ -61,28 +61,6 @@ export default function WhyUsPage() {
                         </AnimatedSection>
                     ))}
                 </AnimatedSection>
-
-                <AnimatedSection animationType="fade-up" delay={0.3} className="bg-dark rounded-3xl p-8 md:p-12 text-center text-white">
-                    <h2 className="text-3xl font-bold mb-6">Pencapaian Kami</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                        <div className="p-4">
-                            <span className="block text-4xl font-bold text-gold mb-2">5+</span>
-                            <span className="text-gray-400">Tahun Pengalaman</span>
-                        </div>
-                        <div className="p-4">
-                            <span className="block text-4xl font-bold text-gold mb-2">500+</span>
-                            <span className="text-gray-400">Event Selesai</span>
-                        </div>
-                        <div className="p-4">
-                            <span className="block text-4xl font-bold text-gold mb-2">100+</span>
-                            <span className="text-gray-400">Klien Puas</span>
-                        </div>
-                        <div className="p-4">
-                            <span className="block text-4xl font-bold text-gold mb-2">50+</span>
-                            <span className="text-gray-400">Partner Vendor</span>
-                        </div>
-                    </div>
-                </AnimatedSection>
             </Section>
         </>
     );

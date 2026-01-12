@@ -110,17 +110,10 @@ export default function Home() {
           >
             {/* Unsplash Event Image */}
             <img
-              src="https://images.unsplash.com/featured/?event,conference"
+              src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=1712&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Event Documentation"
               className="absolute inset-0 w-full h-full object-cover"
             />
-
-            {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-gold/30 to-dark/40 flex items-center justify-center">
-              <span className="text-lg text-white font-semibold tracking-wide">
-                Event Documentation
-              </span>
-            </div>
           </AnimatedSection>
         </div>
       </Section>

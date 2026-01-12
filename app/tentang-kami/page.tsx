@@ -28,10 +28,17 @@ export default function AboutPage() {
                             Perusahaan ini melayani berbagai klien mulai dari perusahaan swasta, instansi pemerintah, komunitas, hingga perorangan. Kami berkomitmen untuk menghadirkan event yang berkualitas dan bernilai tinggi.
                         </p>
                     </AnimatedSection>
-                    <AnimatedSection animationType="scale-in" delay={0.2} className="order-1 md:order-2 h-80 bg-gray-200 rounded-2xl flex items-center justify-center text-gray-400 relative overflow-hidden">
-                        <div className="absolute inset-0 bg-gradient-to-br from-gold/20 to-dark/5 flex items-center justify-center text-gray-400 rounded-2xl">
-                            <span className="text-lg">Office / Team Photo</span>
-                        </div>
+                    <AnimatedSection
+                        animationType="scale-in"
+                        delay={0.2}
+                        className="relative h-96 rounded-2xl overflow-hidden"
+                    >
+                        {/* Unsplash Event Image */}
+                        <img
+                            src="https://images.unsplash.com/photo-1638132704795-6bb223151bf7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cahaya Wukuf Documentation"
+                            className="absolute inset-0 w-full h-full object-cover"
+                        />
                     </AnimatedSection>
                 </div>
 
